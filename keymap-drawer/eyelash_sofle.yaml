@@ -125,11 +125,11 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: L_BASE, h: toggle}
   - {type: held alternate}
   - L_M1
   - L_M2
-  - L_NO_ASFT
+  - {t: L_NO_ASFT, h: toggle}
   L_M1:
   - {t: '`', s: '~'}
   - F1
@@ -317,14 +317,14 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: L_RAISE, type: held}
+  - L_RAISE
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: L_RAISE, type: held}
+  - L_RAISE
   - $$mdi:keyboard-space$$
   - {t: LANG HANJA, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held}
+  - $$mdi:backspace-reverse-outline$$
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
