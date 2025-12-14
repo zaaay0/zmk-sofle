@@ -136,10 +136,10 @@
 
         L_BASE {
             bindings = <
-&kp ESC                    AS(N1)    &kp N2        &kp N3                         &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8     &kp N9     &kp N0    &kp BACKSPACE
-&kp TAB                    AS(Q)     &kp W         &kp E                          &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I      &kp O      &kp P     &kp BSLH
-&HT_LSFT_CAPS LSHIFT CAPS  &kp A     &kp S         &kp D                          &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J   &kp K      &kp L      &kp SEMI  &kp APOS
-&kp LCTRL                  &kp Z     &kp X         &kp C                          &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA  &kp DOT    &kp FSLH  &mo 3
+&kp ESC                    AS(N1)    AS(N2)        AS(N3)                         AS(N4)  AS(N5)       &kp UP_ARROW     AS(N6)     AS(N7)  AS(N8)     AS(N9)     AS(N0)    &kp BACKSPACE
+&kp TAB                    AS(Q)     AS(W)         AS(E)                          AS(R)   AS(T)        &kp DOWN_ARROW   AS(Y)      AS(U)   AS(I)      AS(O)      AS(P)     &kp BSLH
+&HT_LSFT_CAPS LSHIFT CAPS  AS(A)     AS(S)         AS(D)                          AS(F)   AS(G)        &kp LEFT_ARROW   AS(H)      AS(J)   AS(K)      AS(L)      AS(SEMI)  AS(APOS)
+&kp LCTRL                  AS(Z)     AS(X)         AS(C)                          AS(V)   AS(B)        &kp RIGHT_ARROW  AS(N)      AS(M)   AS(COMMA)  AS(DOT)    AS(FSLH)  &mo 3
 &kp C_MUTE                 &kp LALT  &kp LEFT_GUI  &HT_LSFT_CAPS LANG_HANJA RALT  &mo 1   &kp SPACE    &kp ENTER        &kp ENTER  &mo 1   &kp SPACE  &kp ENTER  &mo 2
             >;
 
@@ -150,9 +150,9 @@
         L_RAISE {
             bindings = <
 &kp F11    &kp F1          &kp F2          &kp F3           &kp F4     &kp F5    &trans  &kp F6  &kp F7    &kp F8    &kp F9     &kp F10      &kp F12
-&kp GRAVE  &kp HOME        &kp UP_ARROW    &kp END          &kp PG_UP  &trans    &trans  &trans  &kp HOME  &kp UP    &kp END    &kp PAGE_UP  &kp LEFT_BRACKET
-&trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN  &trans    &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN    &kp RIGHT_BRACKET
-&trans     &kp K_MUTE      &kp C_VOL_DN    &kp C_VOL_UP     &trans     &trans    &trans  &kp N   &trans    &trans    &trans     &trans       &trans
+AS(GRAVE)  &kp HOME        &kp UP_ARROW    &kp END          &kp PG_UP  &trans    &trans  &trans  &kp HOME  &kp UP    &kp END    &kp PAGE_UP  AS(LEFT_BRACKET)
+&trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN  &trans    &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN    AS(RIGHT_BRACKET)
+&trans     &kp K_MUTE      &kp C_VOL_DN    &kp C_VOL_UP     &trans     &trans    &trans  &trans  &trans    &trans    &trans     &trans       &trans
 &trans     &trans          &trans          &trans           &trans     &trans    &trans  &trans  &trans    &trans    &trans     &trans
             >;
 
