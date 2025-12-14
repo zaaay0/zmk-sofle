@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
-#define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
+//#define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro    -> Keymap editor에서 오류남
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
@@ -136,10 +136,10 @@
 
         L_BASE {
             bindings = <
-&kp ESC                    AS(N1)    AS(N2)        AS(N3)                         AS(N4)  AS(N5)       &kp UP_ARROW     AS(N6)     AS(N7)  AS(N8)     AS(N9)     AS(N0)    &kp BACKSPACE
-&kp TAB                    AS(Q)     AS(W)         AS(E)                          AS(R)   AS(T)        &kp DOWN_ARROW   AS(Y)      AS(U)   AS(I)      AS(O)      AS(P)     &kp BSLH
-&HT_LSFT_CAPS LSHIFT CAPS  AS(A)     AS(S)         AS(D)                          AS(F)   AS(G)        &kp LEFT_ARROW   AS(H)      AS(J)   AS(K)      AS(L)      AS(SEMI)  AS(APOS)
-&kp LCTRL                  AS(Z)     AS(X)         AS(C)                          AS(V)   AS(B)        &kp RIGHT_ARROW  AS(N)      AS(M)   AS(COMMA)  AS(DOT)    AS(FSLH)  &mo 3
+&kp ESC                    &as LS(N1) N1    &as LS(N2) N2        &as LS(N3) N3                         &as LS(N4) N4  &as LS(N5) N5       &kp UP_ARROW     &as LS(N6) N6     &as LS(N7) N7  &as LS(N8) N8     &as LS(N9) N9     &as LS(N0) N10    &kp BACKSPACE
+&kp TAB                    &as LS(Q) Q     &as LS(W) W         &as LS(E) E                          &as LS(R) R   &as LS(T) T        &kp DOWN_ARROW   &as LS(Y) Y      &as LS(U) U   &as LS(I) I      &as LS(O) O      &as LS(P) P     &kp BSLH
+&HT_LSFT_CAPS LSHIFT CAPS  &as LS(A) A     &as LS(S) S         &as LS(D) D                          &as LS(F) F   &as LS(G) G        &kp LEFT_ARROW   &as LS(H) H      &as LS(J) J   &as LS(K) K      &as LS(L) L      &as LS(SEMI) SEMI  &as LS(APOS) APOS
+&kp LCTRL                  &as LS(Z) Z     &as LS(X) X         &as LS(C) C                          &as LS(V) V   &as LS(B) B        &kp RIGHT_ARROW  &as LS(N) N      &as LS(M) M   &as LS(COMMA) COMMA  &as LS(DOT) DOT    &as LS(FSLH) FSLH  &mo 3
 &kp C_MUTE                 &kp LALT  &kp LEFT_GUI  &HT_LSFT_CAPS LANG_HANJA RALT  &mo 1   &kp SPACE    &kp ENTER        &kp ENTER  &mo 1   &kp SPACE  &kp ENTER  &mo 2
             >;
 
@@ -150,8 +150,8 @@
         L_RAISE {
             bindings = <
 &kp F11    &kp F1          &kp F2          &kp F3           &kp F4     &kp F5    &trans  &kp F6  &kp F7    &kp F8    &kp F9     &kp F10      &kp F12
-AS(GRAVE)  &kp HOME        &kp UP_ARROW    &kp END          &kp PG_UP  &trans    &trans  &trans  &kp HOME  &kp UP    &kp END    &kp PAGE_UP  AS(LEFT_BRACKET)
-&trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN  &trans    &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN    AS(RIGHT_BRACKET)
+&as LS(GRAVE) GRAVE  &kp HOME        &kp UP_ARROW    &kp END          &kp PG_UP  &trans    &trans  &trans  &kp HOME  &kp UP    &kp END    &kp PAGE_UP  &as LS(LEFT_BRACKET) LEFT_BRACKET
+&trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN  &trans    &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN    &as LS(RIGHT_BRACKET) RIGHT_BRACKET
 &trans     &kp K_MUTE      &kp C_VOL_DN    &kp C_VOL_UP     &trans     &trans    &trans  &trans  &trans    &trans    &trans     &trans       &trans
 &trans     &trans          &trans          &trans           &trans     &trans    &trans  &trans  &trans    &trans    &trans     &trans
             >;
