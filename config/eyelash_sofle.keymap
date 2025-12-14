@@ -142,11 +142,24 @@
 &kp TAB             &as LS(Q) Q    &as LS(W) W    &as LS(E) E    &as LS(R) R    &as LS(T) T      &kp DOWN_ARROW   &as LS(Y) Y    &as LS(U) U    &as LS(I) I          &as LS(O) O             &as LS(P) P        &as LS(BSLH) BSLH
 &HT_AS LSHIFT CAPS  &as LS(A) A    &as LS(S) S    &as LS(D) D    &as LS(F) F    &as LS(G) G      &kp LEFT_ARROW   &as LS(H) H    &as LS(J) J    &as LS(K) K          &as LS(L) L             &as LS(SEMI) SEMI  &as LS(APOS) APOS
 &kp LCTRL           &as LS(Z) Z    &as LS(X) X    &as LS(C) C    &as LS(V) V    &as LS(B) B      &kp RIGHT_ARROW  &as LS(N) N    &as LS(M) M    &as LS(COMMA) COMMA  &as LS(DOT) DOT         &as LS(FSLH) FSLH  &as LS(GRAVE) GRAVE
-&kp C_MUTE          &kp LALT       &kp LEFT_GUI   &kp ENTER      &mo 1          &kp SPACE        &kp ENTER        &kp ENTER      &mo 1          &kp SPACE            &HT_AS RALT LANG_HANJA  &kp DEL
+&kp C_MUTE          &kp LALT       &kp LEFT_GUI   &kp ENTER      &mo 2          &kp SPACE        &kp ENTER        &kp ENTER      &mo 2          &kp SPACE            &HT_AS RALT LANG_HANJA  &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "L_BASE";
+        };
+
+        L_NO_ASFT {
+            bindings = <
+&kp ESC             &kp N1    &kp N2        &kp N3     &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8     &kp N9                  &kp N0    &kp BACKSPACE
+&kp TAB             &kp Q     &kp W         &kp E      &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I      &kp O                   &kp P     &kp BSLH
+&HT_AS LSHIFT CAPS  &kp A     &kp S         &kp D      &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J   &kp K      &kp L                   &kp SEMI  &kp APOS
+&kp LCTRL           &kp Z     &kp X         &kp C      &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA  &kp DOT                 &kp FSLH  &kp GRAVE
+&kp C_MUTE          &kp LALT  &kp LEFT_GUI  &kp ENTER  &mo 2   &kp SPACE    &kp ENTER        &kp ENTER  &mo 2   &kp SPACE  &HT_AS RALT LANG_HANJA  &kp DEL
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            display-name = "L_NO_ASFT";
         };
 
         L_RAISE {
@@ -155,7 +168,7 @@
 &as LS(GRAVE) GRAVE  &kp HOME        &kp UP_ARROW    &kp END          &kp PG_UP  &trans    &trans  &trans  &kp HOME  &kp UP    &kp END    &kp PAGE_UP  &as LS(LEFT_BRACKET) LEFT_BRACKET
 &trans               &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN  &trans    &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN    &as LS(RIGHT_BRACKET) RIGHT_BRACKET
 &trans               &kp K_MUTE      &kp C_VOL_DN    &kp C_VOL_UP     &trans     &trans    &trans  &trans  &trans    &trans    &trans     &trans       &trans
-&trans               &trans          &trans          &trans           &trans     &trans    &trans  &tog 0  &trans    &mo 2     &mo 3      &tog 4
+&trans               &trans          &trans          &trans           &trans     &trans    &trans  &trans  &trans    &mo 3     &mo 4      &tog 1
             >;
 
             display-name = "L_RAISE";
@@ -186,19 +199,6 @@
 
             display-name = "L_M2";
             sensor-bindings = <&scroll_encoder>;
-        };
-
-        L_NO_ASFT {
-            bindings = <
-&kp ESC             &kp N1    &kp N2        &kp N3     &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8     &kp N9                  &kp N0    &kp BACKSPACE
-&kp TAB             &kp Q     &kp W         &kp E      &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I      &kp O                   &kp P     &kp BSLH
-&HT_AS LSHIFT CAPS  &kp A     &kp S         &kp D      &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J   &kp K      &kp L                   &kp SEMI  &kp APOS
-&kp LCTRL           &kp Z     &kp X         &kp C      &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M   &kp COMMA  &kp DOT                 &kp FSLH  &kp GRAVE
-&kp C_MUTE          &kp LALT  &kp LEFT_GUI  &kp ENTER  &mo 1   &kp SPACE    &kp ENTER        &kp ENTER  &mo 1   &kp SPACE  &HT_AS RALT LANG_HANJA  &kp DEL
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "L_NO_ASFT";
         };
     };
 };
