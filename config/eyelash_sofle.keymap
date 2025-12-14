@@ -81,12 +81,12 @@
         };
 
         CB_EQUAL {
-            bindings = <&kp EQUAL>;
+            bindings = <&as LS(EQUAL) EQUAL>;
             key-positions = <22 23>;
         };
 
         CB_MINUS {
-            bindings = <&kp MINUS>;
+            bindings = <&as LS(MINUS) MINUS>;
             key-positions = <35 36>;
         };
 
@@ -101,7 +101,7 @@
         };
 
         CB_LANG {
-            bindings = <&kp RALT>;
+            bindings = <&as LANG_HANJA RALT>;
             key-positions = <29 30>;
         };
 
