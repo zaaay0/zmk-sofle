@@ -140,8 +140,8 @@
 &kp ESC             &as LS(N1) N1  &as LS(N2) N2  &as LS(N3) N3  &as LS(N4) N4  &as LS(N5) N5    &kp UP_ARROW     &as LS(N6) N6  &as LS(N7) N7  &as LS(N8) N8        &as LS(N9) N9           &as LS(N0) N0      &kp BACKSPACE
 &kp TAB             &as LS(Q) Q    &as LS(W) W    &as LS(E) E    &as LS(R) R    &as LS(T) T      &kp DOWN_ARROW   &as LS(Y) Y    &as LS(U) U    &as LS(I) I          &as LS(O) O             &as LS(P) P        &as LS(BSLH) BSLH
 &HT_AS LSHIFT CAPS  &as LS(A) A    &as LS(S) S    &as LS(D) D    &as LS(F) F    &as LS(G) G      &kp LEFT_ARROW   &as LS(H) H    &as LS(J) J    &as LS(K) K          &as LS(L) L             &as LS(SEMI) SEMI  &as LS(APOS) APOS
-&kp LCTRL           &as LS(Z) Z    &as LS(X) X    &as LS(C) C    &as LS(V) V    &as LS(B) B      &kp RIGHT_ARROW  &as LS(N) N    &as LS(M) M    &as LS(COMMA) COMMA  &as LS(DOT) DOT         &as LS(FSLH) FSLH  &mo 3
-&kp C_MUTE          &kp LALT       &kp LEFT_GUI   &kp ENTER      &mo 1          &kp SPACE        &kp ENTER        &kp ENTER      &mo 1          &kp SPACE            &HT_AS RALT LANG_HANJA  &mo 2
+&kp LCTRL           &as LS(Z) Z    &as LS(X) X    &as LS(C) C    &as LS(V) V    &as LS(B) B      &kp RIGHT_ARROW  &as LS(N) N    &as LS(M) M    &as LS(COMMA) COMMA  &as LS(DOT) DOT         &as LS(FSLH) FSLH  &as LS(GRAVE) GRAVE
+&kp C_MUTE          &kp LALT       &kp LEFT_GUI   &kp ENTER      &mo 1          &kp SPACE        &kp ENTER        &kp ENTER      &mo 1          &kp SPACE            &HT_AS RALT LANG_HANJA  &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
