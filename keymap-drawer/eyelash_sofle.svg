@@ -699,11 +699,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <text x="756" y="88" class="combo tap">=</text>
+<text x="756" y="98" class="combo hold">Sft+=</text>
 <text x="756" y="76" class="combo shifted">+</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
 <text x="756" y="144" class="combo tap">-</text>
+<text x="756" y="154" class="combo hold">Sft+-</text>
 <text x="756" y="132" class="combo shifted">_</text>
 </g>
 <g class="combo combopos-4">
@@ -719,6 +721,7 @@ rect.held, rect.combo.held {
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="215" y="134" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
+<text x="224" y="154" class="combo hold"><tspan style="font-size: 60%">LANG HANJA</tspan></text>
 </g>
 <g class="combo backspace combopos-7">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo backspace"/>
@@ -1077,11 +1080,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <text x="756" y="88" class="combo tap">=</text>
+<text x="756" y="98" class="combo hold">Sft+=</text>
 <text x="756" y="76" class="combo shifted">+</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
 <text x="756" y="144" class="combo tap">-</text>
+<text x="756" y="154" class="combo hold">Sft+-</text>
 <text x="756" y="132" class="combo shifted">_</text>
 </g>
 <g class="combo combopos-4">
@@ -1097,6 +1102,7 @@ rect.held, rect.combo.held {
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="215" y="134" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
+<text x="224" y="154" class="combo hold"><tspan style="font-size: 60%">LANG HANJA</tspan></text>
 </g>
 <g class="combo backspace combopos-7">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo backspace"/>
@@ -1472,11 +1478,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <text x="756" y="88" class="combo tap">=</text>
+<text x="756" y="98" class="combo hold">Sft+=</text>
 <text x="756" y="76" class="combo shifted">+</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
 <text x="756" y="144" class="combo tap">-</text>
+<text x="756" y="154" class="combo hold">Sft+-</text>
 <text x="756" y="132" class="combo shifted">_</text>
 </g>
 <g class="combo combopos-4">
@@ -1492,6 +1500,7 @@ rect.held, rect.combo.held {
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="215" y="134" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
+<text x="224" y="154" class="combo hold"><tspan style="font-size: 60%">LANG HANJA</tspan></text>
 </g>
 <g class="combo backspace combopos-7">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo backspace"/>
@@ -1850,11 +1859,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <text x="756" y="88" class="combo tap">=</text>
+<text x="756" y="98" class="combo hold">Sft+=</text>
 <text x="756" y="76" class="combo shifted">+</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
 <text x="756" y="144" class="combo tap">-</text>
+<text x="756" y="154" class="combo hold">Sft+-</text>
 <text x="756" y="132" class="combo shifted">_</text>
 </g>
 <g class="combo combopos-4">
@@ -1870,6 +1881,7 @@ rect.held, rect.combo.held {
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="215" y="134" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
+<text x="224" y="154" class="combo hold"><tspan style="font-size: 60%">LANG HANJA</tspan></text>
 </g>
 <g class="combo backspace combopos-7">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo backspace"/>

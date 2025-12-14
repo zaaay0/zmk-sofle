@@ -266,15 +266,15 @@ combos:
 - p: [47, 48]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [22, 23]
-  k: {t: '=', s: +}
+  k: {t: '=', h: Sft+=, s: +}
 - p: [35, 36]
-  k: {t: '-', s: _}
+  k: {t: '-', h: Sft+-, s: _}
 - p: [48, 50]
   k: '&MC_SCRIPTLET_O'
 - p: [49, 50]
   k: '&MC_SCRIPTLET_C'
 - p: [29, 30]
-  k: $$mdi:apple-keyboard-option$$
+  k: {t: '$$mdi:apple-keyboard-option$$', h: LANG HANJA}
 - p: [34, 35]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [21, 22]
