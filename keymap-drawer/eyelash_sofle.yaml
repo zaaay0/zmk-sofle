@@ -2,56 +2,56 @@ layout: {zmk_keyboard: eyelash_sofle}
 layers:
   L_BASE:
   - $$mdi:keyboard-esc$$
-  - '&as N1'
-  - '&as N2'
-  - '&as N3'
-  - '&as N4'
-  - '&as N5'
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - $$mdi:arrow-up-bold$$
-  - '&as N6'
-  - '&as N7'
-  - '&as N8'
-  - '&as N9'
-  - '&as N0'
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - '&as Q'
-  - '&as W'
-  - '&as E'
-  - '&as R'
-  - '&as T'
+  - Q
+  - W
+  - E
+  - R
+  - T
   - $$mdi:arrow-down-bold$$
-  - '&as Y'
-  - '&as U'
-  - '&as I'
-  - '&as O'
-  - '&as P'
-  - '&as BSLH'
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: \, s: '|'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - '&as A'
-  - '&as S'
-  - '&as D'
-  - '&as F'
-  - '&as G'
+  - A
+  - S
+  - D
+  - F
+  - G
   - $$mdi:arrow-left-bold$$
-  - '&as H'
-  - '&as J'
-  - '&as K'
-  - '&as L'
-  - '&as SEMI'
-  - '&as APOS'
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
-  - '&as Z'
-  - '&as X'
-  - '&as C'
-  - '&as V'
-  - '&as B'
+  - Z
+  - X
+  - C
+  - V
+  - B
   - $$mdi:arrow-right-bold$$
-  - '&as N'
-  - '&as M'
-  - '&as COMMA'
-  - '&as DOT'
-  - '&as FSLH'
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
   - L_M2
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
@@ -79,7 +79,7 @@ layers:
   - F9
   - F10
   - F12
-  - '&as GRAVE'
+  - {t: '`', s: '~'}
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
