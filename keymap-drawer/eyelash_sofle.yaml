@@ -2,7 +2,7 @@ layout: {zmk_keyboard: eyelash_sofle}
 layers:
   L_BASE:
   - $$mdi:keyboard-esc$$
-  - {t: '1', s: '!'}
+  - {t: '1', h: Sft+1, s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
@@ -15,7 +15,7 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - Q
+  - {t: Q, h: Sft+Q}
   - W
   - E
   - R
