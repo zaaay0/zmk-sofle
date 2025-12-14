@@ -54,15 +54,6 @@
         flavor = "hold-preferred";
     };
 
-    AS_HT: AS_HT {
-        compatible = "zmk,behavior-hold-tap";
-        label = "AS_HT";
-        bindings = <&shift>, <&kp>;
-
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-    };
-
     behaviors {
     };
 
@@ -128,32 +119,6 @@
             #binding-cells = <0>;
             bindings = <&kp PRCNT &kp GT>;
             label = "MC_SCRIPTLET_C";
-        };
-
-        shift: shift {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_SHIFT>,
-                <&macro_tap>,
-                <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
-                <&macro_release>;
-
-            label = "SHIFT";
-        };
-
-        as: as {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings =
-                <&macro_press>,
-                <&macro_param_1to1 &macro_param_1to2 &AS_HT MACRO_PLACEHOLDER MACRO_PLACEHOLDER>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&macro_param_1to1 &macro_param_1to2 &AS_HT MACRO_PLACEHOLDER MACRO_PLACEHOLDER>;
-
-            label = "AS";
         };
     };
 
